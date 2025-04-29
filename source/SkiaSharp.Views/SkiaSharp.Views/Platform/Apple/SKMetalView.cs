@@ -113,6 +113,7 @@ namespace SkiaSharp.Views.tvOS
 
 			// hook up the drawing
 			Delegate = this;
+			EnableSetNeedsDisplay = true;
 		}
 
 		public SKSize CanvasSize { get; private set; }
